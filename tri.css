@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+#headerWrapper {
+    display: flex;
+    justify-content: space-between;    
+    background-color: blueviolet;
+    color: azure;
+    height: 60px;
+}  
+
+h2 {
+    margin-top: 8px;
+    padding-left: 12px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: azure;
+}
+
+li {
+    margin-top: 21px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 21px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h4 {
+    margin-top: 1rem;
+}
+#angleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label {
+    padding: 1rem;
+}
+
+input {
+    border-color: blueviolet;
+}
+
+button {
+    margin-top: 1rem;
+    color: azure;
+    background-color: blueviolet;
+    border-radius: 2rem;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

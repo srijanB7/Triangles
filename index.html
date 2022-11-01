@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Triangle Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div id="headerWrapper">
+                <h2>Fun with Triangles</h2>
+                <ul>
+                    <li><a href="tri.html">Is Triangle ?</a></li>
+                    <li><a href="index.html">Quiz</a></li>
+                    <li><a href="hypotenuse.html">Hypotenuse</a></li>
+                    <li><a href="area.html">Area of Triangle</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div id="mainContainer">
+                <div id="mainHeader">
+                    <h3>Quiz on Triangles</h3>
+                    <p><strong>For each correct answer you will get 1 point</strong></p>
+                </div>
+                <div id="questions">
+                    <form id="quizForm">
+
+                        <div id="questionContainer">
+                            
+                            <p id="questionText">
+                                Q1. What is the third angle for the triangle where
+                                angle1 = 45° and angle2 = 45°
+                            </p>
+                            <div id="answer">
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question1"
+                                    value="45°"
+                                    id="ans1a"
+                                    />45°
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question1"
+                                    value="60°"
+                                    id="ans1b"
+                                    />60°
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question1"
+                                    value="90°"
+                                    id="ans1c"
+                                    />90°
+                                </label>
+                            </div>
+                        </div>
+                        <div id="questionContainer">
+                            <p id="questionText">
+                                Q2. What is the third angle for the triangle where
+                                angle1 = 45° and angle2 = 45°?
+                            </p>
+                            <div id="answer">
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question2"
+                                    value="obtuse"
+                                    id="ans2a"
+                                    />obtuse
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question2"
+                                    value="acute"
+                                    id="ans2b"
+                                    />acute
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question2"
+                                    value="right angled"
+                                    id="ans2c"
+                                    />right angled
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div id="questionContainer">
+                            <p id="questionText">Q3. A triangle can have</p>
+                            <div id="answer">
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question3"
+                                    value="one right angle"
+                                    id="ans3a"
+                                    />one right angle
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question3"
+                                    value="two right angle"
+                                    id="ans3b"
+                                    />two right angle
+                                </label>
+                            </div>
+                        </div>
+                        <div id="questionContainer">
+                            <p id="questionText">Q4. The perimeter of triangle with sides a, b, c is</p>
+                            <div id="answer">
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question4"
+                                    value="a+b+c"
+                                    id="ans4a"
+                                    />a+b+c
+                                </label>
+                                <label>
+                                    <input
+                                    type="radio"
+                                    name="question4"
+                                    value="3xa"
+                                    id="ans4b"
+                                    />3xa
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <button id="submit">Submit</button>
+            </div>
+            <div id="result">
+                <p id="resultText"></p>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
